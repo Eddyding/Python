@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+     #!/usr/bin/env python
 # _*_ coding: UTF-8 _*_
 
 
@@ -47,6 +47,71 @@ type(x):返回x的类型
 
 
 '''
+
+a = 100
+print(bin(a))
+print(oct(a))
+print(hex(a))
+
+a=50
+b=100
+print("{}+{}={}".format(a,b,a+b))
+
+
+a = range(1,10)
+print(a)
+#print(range(1,10))
+
+b = range(5,100,5)
+print(b)
+
+c= range(1,101) #[1..101)  or [1..100]
+print(c)
+print("1+2+...+100={}".format(sum(c)))# 在format中的每一个参数会按顺序填入前方字符串中相对应的{}中。
+
+
+'''
+   
+   def functionName:
+   
+'''
+def add2number(a,b):
+    return a + b
+print(add2number(10,20))
+
+def draw_bar(n,symbol="*"):
+    for i in range(1,n+1):
+    #print(symbol,end="") #在print 后面加上end="" or “,” ,目的是为了不让print换行
+        print symbol,
+    print #   # line feed
+draw_bar(5)
+
+draw_bar(symbol='#',n=10) #在调用时，也可以直接指定参数的变量名称，这样就不用管参数的顺序了。
+
+def proc(*args): # var args ,让函数接受没有预先设置的参数个数
+    for arg in args:
+        print("arg:",arg)
+
+
+proc(1,2,3) #Python 会以 tuple的方式来接收 所有调用的自变量，把args当成  tuple
+proc(1,2)
+proc("a","b")
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
