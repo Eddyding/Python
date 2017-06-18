@@ -19,7 +19,7 @@ readlines(): 把每一行拆开 放在每一个不同的字符串变量中，并
 '''
 
 
-import this
+import this  # build-in
 
 print("------------")
 fp = open("zop.txt","r")
