@@ -1,5 +1,5 @@
-import numpy as np
-import matplotlib.pyplot as pt
+import numpy as np # 
+import matplotlib.pyplot as pt # 
 
 
 x = np.arange(0,360)

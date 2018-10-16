@@ -4,9 +4,7 @@ from urllib.parse import urlparse
 
 
 '''
-    
-可能必须通过搜索 或  分页的方式才能够 提前需要的所有的数据。
-
+可能必须通过搜索 或  分页的方式才能够 提取需要的所有的数据。
 
 '''
 url = 'http://www.chinahr.com/sou/?city=398&keyword=%E9%80%9A%E4%BF%A1%E5%B7%A5%E7%A8%8B%E5%B8%88&companyType=3&degree=0&refreshTime=0&workAge=0'
