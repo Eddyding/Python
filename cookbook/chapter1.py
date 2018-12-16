@@ -1,4 +1,5 @@
 #!/usr/bin/env  python
+# -*- coding: utf-8 -*-
 
 p = (4,5)
 x,y = p
@@ -23,7 +24,7 @@ print (a, b, c, d, e)
 _, shares, price, _ = data
 print (shares, price)
 
-# *
+# **
 
 def drop_first_last(grades):
     first,*middle, last = grades
