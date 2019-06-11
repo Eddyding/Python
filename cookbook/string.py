@@ -16,3 +16,14 @@
 'asdf fjdk;afed,fjek,asdf,foo'
 >>> re.split(r'(?:,|;|\s)\s*', line)
 ['asdf', 'fjdk', 'afed', 'fjek', 'asdf', 'foo']
+
+
+
+>>> filename = 'spam.txt'
+>>> filename.endswith('.txt')  # str.endswith() 检查字符串结尾
+True
+>>> filename.startswith('file:')   # str.startswith()  检查字符串开头
+False
+>>> url='http://www.baidu.com'
+>>> url.startswith('http:')
+True
